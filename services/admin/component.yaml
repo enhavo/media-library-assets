@@ -11,12 +11,6 @@ services:
         tags:
             - { name: vue.component, component: 'collection-media-library' }
 
-    '@enhavo/media-library/components/collection/CollectionMediaLibraryTable.vue':
-        chunk: 'vue'
-        static: true
-        tags:
-            - { name: vue.component, component: 'collection-media-library-table' }
-
     '@enhavo/media-library/components/collection/CollectionMediaLibraryThumbnail.vue':
         chunk: 'vue'
         static: true
